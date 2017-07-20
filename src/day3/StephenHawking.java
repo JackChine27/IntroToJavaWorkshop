@@ -8,9 +8,12 @@ public class StephenHawking {
 
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	public static void main(String[] args) {
+		for (int i = 0; i < 20; i++) {
+			
+		
 		String word=JOptionPane.showInputDialog("Enter a sentence");
 		speak(word);
-		
+		}
 	}
 	
 	// 2. ask the user for a sentence
